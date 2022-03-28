@@ -27,4 +27,10 @@ class CalculatorTest {
         double answer = calculator.subtraction(2,1);
         Assertions.assertEquals(1.0,answer);
     }
+
+    @Test
+    void multiplication(){
+        double answer = calculator.multiplication(5,5);
+        Assertions.assertEquals(25,answer,1);
+    }
 }
