@@ -11,6 +11,6 @@ public class Calculator {
     }
 
     public double multiplication(double a, double b){
-        return 0;
+        return a * b;
     }
 }
